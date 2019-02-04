@@ -1,0 +1,25 @@
+/* 
+
+EXEMPLES DE HELPERS // Les helpers servent à être appelés via des extend pour faire de l'optimisation
+
+.primary-bg {background-color: $primary;}
+.primary-text {color: $primary;}
+.primary-border {border: 2px solid $primary;}
+
+%adds-transition-01{transition: 0.1s ease-out;}
+%adds-transition-02{transition: 0.2s ease-out;}
+
+i.material-icons.alone {
+    font-size: 18px;
+    color: $grey-medium;
+    @extend %adds-transition-02;
+  &.white {
+      color: $white;
+  	  &:hover,&:active,&:focus{
+            color:rgba( $grey-dark, .6 );
+            @extend %cursor-pointer;
+    }
+  }
+}
+
+*/
