@@ -1,23 +1,56 @@
-.main-button{
-    border-radius: 5px;
-    padding: 9px 20px;
-    font-size: 20px;
-    width: 200px;
-    height:65px;
-    display: inline-block;
-    line-height: 1.4;
-    vertical-align: middle;
+
+%button-classic {
+  border-radius: 5px;
+  padding: 9px 20px;
+  width: 200px;
+  height: 65px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.4;
+
+}
+
+.MJ-button{
+    @extend %button-classic;
+    font-size: $secondary-size;
     background-color: $primary-color;
     color: $background-color;
     text-transform: uppercase;
-
 }
-.secondary-button {
-  border-radius: 3px;
-  padding: 9px 20px;
-  font-size: 16px;
-  display: inline-block;
-  line-height: 1.4;
-  vertical-align: middle;
-  color: #E8E8E8;
+
+.PJ-button {
+  @extend %button-classic;
+  font-size: $secondary-size;
+  background-color: $third-color;
+  color: $background-color;
+  text-transform: uppercase;
+}
+.teleport-button {
+  @extend %button-classic;
+  font-size: $secondary-size;
+  background-color: $primary-color;
+  color: $background-color;
+  text-transform: uppercase;
+}
+.collect-button{
+  @extend %button-classic;
+  background-color: $background-color;
+  color: $primary-color;
+  font-size: $secondary-size;
+  text-transform: uppercase;
+  border:none;
+}    
+.MJlink-button {
+  @extend %button-classic;
+  background-color: $background-color;
+  color: $primary-color;
+  font-size: $text-size;
+  border: none;
+}
+.PJlink-button {
+  @extend %button-classic;
+  background-color: $background-color;
+  color: $black-color;
+  font-size: $text-size;
+  border: none;
 }

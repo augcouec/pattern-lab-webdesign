@@ -1,64 +1,25 @@
-$elementSeparator: '__';
-$modifierSeparator: '--';
+/* 
 
-@mixin block($block) {
-  .#{$block} {
-    @content;
-  }
-}
+EXEMPLES DE HELPERS // Les helpers servent à être appelés via des extend pour faire de l'optimisation
 
-@mixin element($element) {
-  @at-root {
-    #{&}#{$elementSeparator+$element} {
-      @content;
+.primary-bg {background-color: $primary;}
+.primary-text {color: $primary;}
+.primary-border {border: 2px solid $primary;}
+
+%adds-transition-01{transition: 0.1s ease-out;}
+%adds-transition-02{transition: 0.2s ease-out;}
+
+i.material-icons.alone {
+    font-size: 18px;
+    color: $grey-medium;
+    @extend %adds-transition-02;
+  &.white {
+      color: $white;
+  	  &:hover,&:active,&:focus{
+            color:rgba( $grey-dark, .6 );
+            @extend %cursor-pointer;
     }
   }
 }
 
-@mixin modifier($modifier) {
-  @at-root {
-    #{&}#{$modifierSeparator+$modifier} {
-      @content;
-    }
-  }
-}
-
-// Convert pixels to em
-// $browser-context : base font size in pixels
-
-
-@function em($pixels, $context: $browser-context) {
-  @if (unitless($pixels)) {
-    $pixels: $pixels * 1px;
-  }
-
-  @if (unitless($context)) {
-    $context: $context * 1px;
-  }
-
-  @return $pixels / $context * 1em;
-}
-
-@mixin placeholder() {
-  &::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    @content;
-  }
-
-  &:-ms-input-placeholder {
-    /* IE 10+ */
-    @content;
-  }
-
-  &:-moz-placeholder {
-    /* Firefox 18- */
-    @content;
-    opacity: 1;
-  }
-
-  &::-moz-placeholder {
-    /* Firefox 19+ */
-    @content;
-    opacity: 1;
-  }
-}
+*/

@@ -11,7 +11,6 @@
   font-weight: bold;
   font-size: 1.500em;
   text-transform: uppercase;
-
 }
 
 .MJ-button-typo {
@@ -20,37 +19,46 @@
   font-size: 1.250em;
   text-transform: uppercase;
 }
+
 .category-typo {
   font-family: $lato-font;
   font-size: 1.250em;
   text-transform: uppercase;
 }
+
 .teleport-button-typo {
   font-family: $lato-font;
   font-size: 1.250em;
 }
+
 .PJ-button-typo {
   font-family: $lato-font;
   font-size: 1.250em;
   font-weight: 300;
 }
+
 .collect-button-typo {
   font-family: $lato-font;
   font-size: 1.250em;
   text-transform: uppercase;
 }
+
 .italic-little-typo{
   font-family: $lato-font;
   font-size: 1.250em;
   font-style: italic; 
 }
+
 .italic-big-typo {
   font-family: $lato-font;
   font-size: 1.500em;
   font-style: italic;
+  line-height: 130%;
 }
+
 .text-font{
     font-family: $lato-font;
-    font-size: 1.500em;
+    font-size: 1.000em;
     font-style: italic;
+    line-height: 120%;
 }
