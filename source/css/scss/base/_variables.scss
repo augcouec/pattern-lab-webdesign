@@ -1,1 +1,26 @@
-// Toutes vos variables vont ici
+
+//-------------------------------------------
+//COLORS
+//-------------------------------------------
+$primary-color: #E74054;
+$secondary-color: #0B2545;
+$third-color: #EAB8BD;
+$background-color: #fff;
+$black-color:#000;
+
+//-------------------------------------------
+//TYPOS
+//-------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative%7CLato');
+
+$cinzel-font:'Cinzel Decorative', cursive;
+$lato-font:'Lato',sans-serif;
+
+//-------------------------------------------
+//TYPOS SIZE
+//-------------------------------------------
+
+$primary-size:1.500em;
+$secondary-size:1.250em;
+$text-size:1.000em;

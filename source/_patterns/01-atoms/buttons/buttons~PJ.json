@@ -1,6 +1,9 @@
+
 {
     "tag":"button",
     "link": "http://www.google.com",
-    "button-class": "MJ-button MJ-button-typo",
+    "button-class": "PJ-button",
     "text": "Hello!"
 }
+
+
