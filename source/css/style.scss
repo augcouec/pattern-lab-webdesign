@@ -3,10 +3,12 @@
 @import "scss/base/variables";
 @import "scss/base/globals";
 @import "scss/base/helpers";
+@import "scss/base/typo";
 
 //components imports
 @import "scss/components/atoms/buttons";
+@import "scss/components/atoms/rounded-images";
+@import "scss/components/components/boxes";
 
 //global styling imports
 @import "scss/main";
-
