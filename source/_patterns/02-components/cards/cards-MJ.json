@@ -1,0 +1,17 @@
+{
+  "tag": "div",
+  "class": "card",
+  "class2": "background-typo",
+  "font": {
+    "tag": "span",
+    "typo-class": "title-typo",
+    "text": "title "
+  },
+  "button": {
+  "tag": "button",
+  "link": "http://www.google.com",
+  "button-class": "MJ-button MJ-button-typo",
+  "text": "Découvrir"
+  }
+
+}
