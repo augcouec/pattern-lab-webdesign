@@ -30,7 +30,6 @@
   font-size: $secondary-size;
   background-color: $primary-color;
   color: $background-color;
-  text-transform: uppercase;
 }
 .collect-button{
   @extend %button-classic;
