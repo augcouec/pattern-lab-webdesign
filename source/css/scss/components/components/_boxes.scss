@@ -20,10 +20,21 @@
 
 .documentation-box {
   background-color: $background-color;
-    h2 {
-      color: $secondary-color;
-    }
-    p {
-      color: $black-color;
-    }
+  width: 70%;
+  height: 20vh;
+  padding: 2%;
+  box-shadow: 1px 4px 4px 1px rgba($color: #000000, $alpha: 0.25);
+  display: flex;
+  align-items: center;
+  margin: 10%;
+}
+.documentation-box-text {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.documentation-box-img{
+  transform:translate(-72%);
 }

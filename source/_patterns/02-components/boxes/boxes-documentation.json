@@ -1,0 +1,31 @@
+{
+  "tag": "div",
+  "class": "documentation-box",
+  "tag2": "div",
+  "class2": "documentation-box-text",
+
+  "font":{
+    "tag": "p",
+    "typo-class": "text-typo",
+    "text": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. "
+  },
+   "fonttitle": {
+        "tag": "span",
+        "typo-class": "title-typo",
+        "text": "title lorem ipsum"
+   },
+   "button":{
+  "tag": "button",
+  "link": "http://www.google.com",
+  "button-class": "collect-button collect-button-typo",
+  "text": "telecharger"
+   },
+   "roundedimages":{
+           "tag": "div",
+           "rounded-images-class": "MJ-rounded-image documentation-box-img ",
+           "url": "https://images.unsplash.com/photo-1525540796810-55f9fbc5592f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80",
+           "alt": "Une image"
+   }
+
+
+}
