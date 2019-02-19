@@ -1,0 +1,33 @@
+%boxes-quote {
+  background-color: $third-color;
+  color: $primary-color;
+  padding: 9px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    p {
+      margin: 1.000em;
+    }
+}
+
+.MJ-quote-box {
+  @extend %boxes-quote;
+  width: 1440px;
+  height: 240px;
+}
+
+.PJ-quote-box {
+  @extend %boxes-quote;
+  width: 785px;
+  height: 240px;
+}
+
+.documentation-box {
+  background-color: $background-color;
+    h2 {
+      color: $secondary-color;
+    }
+    p {
+      color: $black-color;
+    }
+}
